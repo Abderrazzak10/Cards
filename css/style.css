@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.cards-section{
+    display: grid;
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 3px 7px 5px 5px rgba(0, 0, 0, 0.133);
+    margin: 30px 30px;
+    padding: 50px 25px;
+    width: 60%;
+}
