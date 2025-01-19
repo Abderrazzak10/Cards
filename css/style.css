@@ -13,6 +13,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     text-align: center;
+
 }
 
 .cards{
@@ -29,6 +30,11 @@ body{
     width: 60%;
 }
 
+.cards img{
+    width: 50%;
+    margin: 30px auto;
+}
+
 .cards div h4{
     margin-bottom: 0;
     margin-top: 15px;
@@ -38,3 +44,23 @@ body{
     margin-top: 0;
 
 }
+
+.cards .images{
+    /* display: flex;
+    margin: auto;
+    margin-bottom: 40px; */
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px auto;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.cards .images img{
+    border: 1px solid rgba(51, 51, 51,0.198);
+    padding: 10px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
