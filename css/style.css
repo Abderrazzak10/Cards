@@ -64,3 +64,25 @@ body{
     cursor: pointer;
 }
 
+.button{
+    background-color: #02d484;
+    letter-spacing: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 0;
+    width: 100%;
+    cursor: pointer;
+    transition: 0,5s ease-in-out;
+}
+
+.button1{
+    background-color: tomato;   
+}
+.button3{
+    background-color: rgb(255, 89, 0);
+}
+.button4{
+    background-color: rgb(70, 4, 50)
+}
